@@ -1,9 +1,43 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "E:\\smartcontracts\\dapp\\contracts\\Greeter.sol": {
-      "lastModificationDate": 1629635131724,
-      "contentHash": "1a682019f7bf39a1f817a3bf0a11389f",
+    "E:\\_Backup\\dapps\\current_dapps\\contracts\\FileUploadHash.sol": {
+      "lastModificationDate": 1642233511225,
+      "contentHash": "ba07eb3a2dc69f1a1f42cb787898c45a",
+      "sourceName": "contracts/FileUploadHash.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "FilesHash"
+      ]
+    },
+    "E:\\_Backup\\dapps\\current_dapps\\contracts\\Greeter.sol": {
+      "lastModificationDate": 1642233511226,
+      "contentHash": "ca03482c96a473aea3c7387e04e82d73",
       "sourceName": "contracts/Greeter.sol",
       "solcConfig": {
         "version": "0.8.4",
@@ -37,8 +71,8 @@
         "Greeter"
       ]
     },
-    "E:\\smartcontracts\\dapp\\node_modules\\hardhat\\console.sol": {
-      "lastModificationDate": 1627228788546,
+    "E:\\_Backup\\dapps\\current_dapps\\node_modules\\hardhat\\console.sol": {
+      "lastModificationDate": 1642233734347,
       "contentHash": "cc4777addd464ea56fa35b1c45df0591",
       "sourceName": "hardhat/console.sol",
       "solcConfig": {
@@ -71,8 +105,8 @@
         "console"
       ]
     },
-    "E:\\smartcontracts\\dapp\\contracts\\MultiSignature.sol": {
-      "lastModificationDate": 1632031714855,
+    "E:\\_Backup\\dapps\\current_dapps\\contracts\\MultiSignature.sol": {
+      "lastModificationDate": 1642233511226,
       "contentHash": "4e440fdb610692c00a2bff0a7d19151f",
       "sourceName": "contracts/MultiSignature.sol",
       "solcConfig": {
@@ -103,40 +137,6 @@
       ],
       "artifacts": [
         "MultipleSignatureWallet"
-      ]
-    },
-    "E:\\smartcontracts\\dapp\\contracts\\FileUploadHash.sol": {
-      "lastModificationDate": 1632032321102,
-      "contentHash": "ba07eb3a2dc69f1a1f42cb787898c45a",
-      "sourceName": "contracts/FileUploadHash.sol",
-      "solcConfig": {
-        "version": "0.8.4",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.4"
-      ],
-      "artifacts": [
-        "FilesHash"
       ]
     }
   }
