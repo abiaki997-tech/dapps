@@ -232,7 +232,11 @@ function App() {
 
       let signature = await signer.signMessage(message, signer);
 
-      console.log(signature, 'signature')
+      console.log(signature, 'signature');
+
+      let signeraddress= await signer.getAddress();
+
+      console.log(signeraddress,'accounts== signeraddress')
 
       let accounts = ethers.utils.verifyMessage(message, signature);
 
